@@ -6,11 +6,15 @@ class Person:
         self.personID = personID
 
     def display_data(self):
-        print("Hi, my name is ", self.name, ",my age is", self.age, ", and my personal ID is", self.personID)
+        print("Hi, my name is ",self.name,",my age is", self.age, ",and my personal ID is", self.personID)
 
 person01 = Person("Alberto", 58, 123)
 person02 = Person("Gino", 61, 13)
 person03 = Person("Fiona", 18, 5)
+
+person01.display_data()
+person02.display_data()
+person03.display_data()
 
 #print(person01.name)
 #print(person01.age)
