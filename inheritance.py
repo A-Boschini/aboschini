@@ -1,9 +1,7 @@
 # Parent Class
-def Vehicle_data(self):
-    print("Hello from the Vehicle Class!")
-
-
-
+class Vehicle:
+    def Vehicle_data(self):
+        print("Hello from the Vehicle Class!")
 
 # Chiled Class
 class Car(Vehicle):
